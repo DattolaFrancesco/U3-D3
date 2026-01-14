@@ -1,0 +1,35 @@
+@each $name, $value in $sizes {
+  .text-#{$name} {
+    font-size: $value;
+  }
+}
+@each $name, $value in $weight {
+  .weight-#{$name} {
+    font-weight: $value;
+  }
+}
+@each $name, $value in $sizes {
+  .padding-inline-#{$name} {
+    padding-inline: $value;
+  }
+}
+@each $name, $value in $sizes {
+  .padding-block-#{$name} {
+    padding-block: $value;
+  }
+}
+@each $name, $value in $sizes {
+  .margin-inline-#{$name} {
+    margin-inline: $value;
+  }
+}
+@each $name, $value in $sizes {
+  .margin-block-#{$name} {
+    margin-block: $value;
+  }
+}
+@each $name, $value in $btn-color {
+  .btn#{$name} {
+    background-color: $value;
+  }
+}

@@ -1,0 +1,24 @@
+@mixin d-flex-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bg-hero;
+}
+@mixin nav-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  color: $text-color;
+}
+@mixin title-big {
+  font-size: $font-size-xxl;
+  color: $title-hero;
+  font-weight: bolder;
+  letter-spacing: -3px;
+}
+@mixin floating {
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px black;
+  border: 1px solid black;
+}
