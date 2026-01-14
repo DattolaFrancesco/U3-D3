@@ -10,6 +10,12 @@
 .floating {
   @include floating;
 }
+.startAnimation {
+  animation: move 3s forwards;
+}
+.animazione {
+  @include animation;
+}
 .bg-hero {
   background-color: $bg-hero;
 }
@@ -21,4 +27,23 @@ button {
   border: none;
   border-radius: 5px;
   padding: 5px 5px;
+}
+.d-start {
+  justify-content: start;
+  display: flex;
+  align-items: center;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+  top: 200px;
+  right: -50px;
+}
+.margin-top {
+  margin-top: 10em;
+}
+.padding-block-xxxl {
+  padding-block: 10em;
 }
